@@ -4,10 +4,10 @@ USE company_db;
 INSERT INTO departments (department_name) VALUES ("Wiggles");
 
 INSERT INTO roles (title, salary, department_id)
-VALUES ('Wiggler', 1738, 5);
+VALUES ('Senior Engineer', 1800, 1);
 SELECT employees.id WHERE employee.id = manager_id
 INSERT INTO employees (first_name, last_name, role_id, manager_id)
-VALUES ('WiggleBottom', 'Wombo', 12, null);
+VALUES ('Michael', 'Smith', 5, null);
 SELECT * FROM company_db.departments;
 
 SELECT roles.id, roles.title, roles.salary, departments.department_name
