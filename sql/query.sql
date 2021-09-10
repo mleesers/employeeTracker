@@ -1,7 +1,7 @@
 USE company_db;
 
 
-INSERT INTO departments (department_name) VALUES ("Wiggles");
+INSERT INTO departments (department_name) VALUES ("Engineers");
 
 INSERT INTO roles (title, salary, department_id)
 VALUES ('Senior Engineer', 1800, 1);
